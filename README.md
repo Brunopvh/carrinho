@@ -1,6 +1,6 @@
 # carrinho
 
-Aprendendo JavaScript
+Adicionar e remove items de um carrinho de compras
 
 ## Getting started
 

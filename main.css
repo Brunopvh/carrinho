@@ -1,0 +1,66 @@
+
+* {
+	margin: 0 auto;
+}
+
+
+h1 {
+	text-align: center;
+	
+	color: white;
+}
+
+body {
+	background-color: blueviolet;
+}
+
+#loja {
+	width: 650px;
+}
+
+#divProdutos {
+	width: 340px;
+	float: center;
+	background-color: lightblue;
+}
+
+#fieldProdutos {
+	width: 290px;
+}
+
+#produtosBtn {
+	float: right;
+}
+
+#listaProdutos {
+	float: left;
+}
+
+
+#areaTabela {
+	width: 400px;
+	background-color: lightblue;
+	text-align: center;
+	padding: 5px 10px;
+	border: 1px solid blue;
+}
+
+
+
+#areaTabela tbody tr {
+	background-color: gray;
+	color: white;
+
+}
+
+#somaTotal {
+	width: 420px;
+	float: center;
+	text-align: center;
+	background-color: lightsalmon;
+}
+
+
+
+
+

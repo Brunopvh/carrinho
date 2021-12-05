@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Loja</title>
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+
+	<br>
+	<h1>Selecione os produtos desejados</h1><br>
+	
+	<main id="divMain">
+	<div id="loja">
+	
+		<div id="divProdutos" class="produtosClass">
+			<!--<label class="produtosClass">Lista de produtos</label>-->
+			<fieldset id="fieldProdutos">
+				<legend>Lista de Produtos</legend>
+				<div id="listaProdutos">
+					<select id="selectId" name="selectProdutos">
+						<option value="">--</option>
+						<option value="banana">Banana</option>
+						<option value="arroz">Arroz</option>
+						<option value="leite">Leite</option>
+						<option value="oleo_cozinha">Óleo Cozinha</option>
+						<option value="sabao-em-barra">Sabão em barra</option>
+					</select>
+				</div>
+
+				<div id="produtosBtn">
+					<button onclick="adicionar()" id="btnAdicionar">Adicionar</button>
+					<button onclick="remover()" id="btnRemover">Remover</button>
+				</div>
+
+			</fieldset>
+		</div>
+		
+		<br>
+		
+		
+		<div id="areaTabela" class="area-tabela">
+			<p>Carrinho de compras</p><br>
+			<hr>
+			
+			<table id="tabelaId">
+				<thead id="tabelaHead">
+					<tr>
+						<th>ID</th>
+						<th>NOME</th>
+						<th>PREÇO</th>
+						<th>QUANTIDADE</th>
+						<th>VALOR</th>
+
+					</tr>
+				</thead>
+			
+				<tbody id="tabelaBody">
+					
+				</tbody>
+			
+			</table>
+			<br>
+			
+			
+		</div>
+
+		<div id="somaTotal">
+			<label>Total</label>
+			<label id="labelTotal">R$ 0,00</label>
+		</div>
+		
+		
+	</div>
+	</main>
+
+	<script type="text/javascript" src="scripts/main.js"></script>
+
+</body>
+</html>
